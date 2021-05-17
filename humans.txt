@@ -1,0 +1,15 @@
+<link rel="author" href="humans.txt" />
+/* TEAM */
+Your title: Yaritza Aleman
+Site: yrtz.aleman@yahoo.com, link to a contact form, etc.
+Twitter: your Twitter username.
+Location: Chicago, IL USA
+
+/* THANKS */
+Name: Yaritza Aleman
+
+/* SITE */
+Last update: 2021/05/DD17
+Standards: HTML5, CSS3,..
+Components: Modernizr, jQuery, etc.
+Software: Software : VSCode, Ubuntu
