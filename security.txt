@@ -2,3 +2,4 @@ Contact: yrtz.aleman@yahoo.com
 Expires: Sat, 1 Jan 2022 09:00 -0500
 Acknowledgments: https://www.microtrain.net/
 Preferred-Languages: English, Spanish
+Canonical: https://yrtzaleman11.github.io/security.txt
