@@ -9,7 +9,6 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
        
     </head>
-    <body>
       <header>
         <span class="logo">Yaritza Aleman</span>
         <a id="toggleMenu">Menu<a></a>
@@ -21,6 +20,8 @@
             </ul>
         </nav>
     </header>
+<body>
+
 
     <main>
 
@@ -53,5 +54,21 @@
             <input type="hidden" name="_next" value="//yrtzaleman11.github.io/thanks.html">
             <input type="text" name="_gotcha" style="display:none">
           </form>
+          <script>
+
+            var toggleMenu = document.getElementById('toggleMenu');
+            var nav = document.querySelector('nav');
+            toggleMenu.addEventListener(
+              'click',
+              function(){
+                if(nav.style.display=='block'){
+                  nav.style.display='none';
+                }else{
+                  nav.style.display='block';
+                }
+              }
+            );
+          </script>
+      
         </body>
     </html>

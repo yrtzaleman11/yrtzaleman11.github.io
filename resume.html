@@ -10,11 +10,9 @@
        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
        <link rel="manifest" href="site.webmanifest">   
     <title>Yaritza Aleman Resume</title>
-    <meta name="description" content="Yaritza Aleman Resume>
+    <meta name="description" content="Yaritza Aleman Resume">
     <meta name="keywords" content="receptionist,customer service,Scrum Master,Spanish,English">  
     </head>
-    <body>   
-      
 <header>
     <span class="logo">Yaritza Aleman</span>
     <a id="toggleMenu">Menu<a></a>
@@ -26,6 +24,7 @@
       </ul>
   </nav>
 </header>
+<body>  
 <main>
   <section>
     <h1>Yaritza Aleman</h1>
@@ -93,6 +92,22 @@
   </ul>
 </section>
 </main>
+<script>
+
+  var toggleMenu = document.getElementById('toggleMenu');
+  var nav = document.querySelector('nav');
+  toggleMenu.addEventListener(
+    'click',
+    function(){
+      if(nav.style.display=='block'){
+        nav.style.display='none';
+      }else{
+        nav.style.display='block';
+      }
+    }
+  );
+</script>
+
 </body>
 </html>
   
